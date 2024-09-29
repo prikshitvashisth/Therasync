@@ -8,25 +8,66 @@
 body{
     background-color: rgb(235, 229, 207);
 }
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.logo-text{
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+    padding-top: 25px;
+}
 .head{
-    background-color: rgb(251, 131, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 241, 204);
     padding: 10 px; 
 }
+
+.head img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    
+}
+
+.head h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000080;
+}
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ff87cb;
+    background-color: #fff1cc;
     padding: 10px;
-    border-bottom: 5px solid #00ffff;
+    background-color: #fff1cc;
+    border-bottom: 5px solid ;
 }
  
+
 .logo{
     margin: 25px 5px 0px 50px;
     width: 100px;  
     height: 100px; 
-    border-radius: 50%;  
+    border-radius: 50%; 
+    justify-content: right; 
     object-fit: cover; 
     }
     .main-nav ul {
@@ -71,8 +112,8 @@ header {
     }
     
     .navbar ul li a:hover {
-        background-color: #00ffff;
-        color: #ff6600;
+        background-color: #F3E5AB;
+        color: #000080;
         border-radius: 5px;
     }
 
@@ -83,15 +124,17 @@ header {
     }
     
     .navigation .navbar {
-        background-color: rgb(251, 131, 227) !important;
+        background-color: rgb(255, 241, 204) !important;
     }
 
 
+
+    
 .testHeading{
-    font-size: 50px;
+    font-size: 70px;
     color: white;
-    background-color: aqua;
-    height: 200px;
+    background-color: #6CA0DC;
+    height: 150px;
     display: flex;
     justify-content: center; 
     align-items: center;    
@@ -112,8 +155,8 @@ p{
 .question-box {
     text-align: center;      /* Center the question and buttons */
     background-color: white; /* Set background color to white */
-    padding: 50px;           /* Add padding inside the box */
-    border-radius: 10px;     /* Rounded corners */
+    padding: 30px;           /* Add padding inside the box */
+    border-radius: 30px;     /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
     width: 200%;              /* Set the width of the box */
     max-width: 700px;        /* Limit the maximum width */
@@ -128,9 +171,10 @@ p{
 
 button {
     flex: 0 0 auto; /* Prevent buttons from shrinking or growing */
+    background-color: #2261a8;
     border-radius: 999px; /* Fully rounded, pill-shaped buttons */
     padding: 10px 20px;  /* Adjust the padding for a better appearance */
-    border: 2px solid #0056b3; /* Custom blue border for buttons */
+    border: 2px solid #000080; /* Custom blue border for buttons */
 }
     
 }
@@ -141,7 +185,7 @@ button {
 }
 
 .active-button {
-    background-color: #0056b3 !important;
+    background-color: #003f7f !important;
     color: white !important;
     border: 2px solid #003f7f;
 }
@@ -149,6 +193,8 @@ button {
 footer {
     background-color: #f0e8cc; /* Light beige background */
     padding: 20px;
+    margin-top: 0;
+    border: none;
 }
 
 .footer-container {
@@ -160,9 +206,11 @@ footer {
 }
 
 footer {
-    background-color: #b6a9a9;
-    color: #006400;
+    background-color: #f0e8cc;
+    color: #d3d3d3;
     padding: 20px 0;
+    margin-top: 0;
+    border: none;
 }
 
 .footer-container {
@@ -195,7 +243,7 @@ footer {
 }
 
 .footer-section a {
-    color: #006400;
+    color: #4a4a4a;
     text-decoration: none;
 }
 
@@ -204,11 +252,12 @@ footer {
 }
 
 .contact-us {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .contact-info {
     font-size: 14px; /* Smaller font size */
     margin-bottom: 8px;
-    color: #006400; /* Light gray color for subtle effect */
+    color: #4a4a4a; /* Light gray color for subtle effect */
 }
