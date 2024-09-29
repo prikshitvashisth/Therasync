@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autism Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="head">
+        <img class="logo" src="Designer.png" alt="logo">
+    </div>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul></ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#test1-16">Test for 1 to 16</a></li>
+                <li><a href="#test17-above">Test for 17 and above</a></li>
+            </ul>
+    
+        </nav>
+    </div>
+</header>
+<div class="testHeading">
+    <p>Take our quick autism test</p>
+</div>
+
+<!-- Social Relationship and Reciprocity Section -->
+
+<div class="q1">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Has poor eye contact</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q2">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Lacks social smile</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q3">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Remains aloof</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q4">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Does not reach out to others</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q5">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Unable to relate to people</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q6">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Unable to respond to social/environmental cues</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q7">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Engages in solitary and repetitive play activities</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q8">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Unable to take turns in social interaction</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q9">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Does not maintain peer relationships</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q10"></div>
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Shows inappropriate emotional response</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q11">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Shows exaggerated emotions</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q12">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Engages in self-stimulating emotions</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q13">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Lacks fear of danger</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q14">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Excited or agitated for no apparent reason</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="q15"></div>
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Acquired speech and lost it</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q16">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Has difficulty in using non-verbal language or gestures to communicate</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q17">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Engages in stereotyped and repetitive use of language</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q18">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Engages in echolalic speech</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q19">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Produces infantile squeals/unusual noises</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q20">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Unable to initiate or sustain conversation with others</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q21">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Uses jargon or meaningless words</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q22"></div>
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Uses pronoun reversals</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q23">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Unable to grasp pragmatics of communication</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q24">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Engages in stereotyped and repetitive motor mannerisms</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q25">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Shows attachment to inanimate objects</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q26">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Shows hyperactivity/restlessness</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q27">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Exhibits aggressive behavior</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q28">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Throws temper tantrums</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q29">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Engages in self-injurious behavior</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q30">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Insists on sameness</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q31"></div>
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Unusually sensitive to sensory stimuli</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q32">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Stares into space for long periods of time</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q33">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Has difficulty in tracking objects</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q34">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Has unusual vision</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q35">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Insensitive to pain</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q36">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Responds to objects/people unusually by smelling, touching or tasting</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q37">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Inconsistent attention and concentration</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q38">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Shows delay in responding</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q39">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Has unusual memory of some kind</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="q40">
+    <div class="test">
+        <div class="question-box">
+            <div class="question">
+                <p>Has ‘savant’ ability</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Rarely</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Sometimes</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Frequently</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Mostly</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="selectButton(this)">Always</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<footer></footer>
+    <div class="footer-container">
+        <!-- Follow Us Section -->
+        <div class="footer-section follow-us">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-section quick-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div class="footer-section contact-us">
+            <h4>Contact Us</h4>
+            <p class="contact-info">Email: info@example.com</p>
+            <p class="contact-info">Phone: +123-456-7890</p>
+            <p class="contact-info">Address: 123 Main Street, City, Country</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

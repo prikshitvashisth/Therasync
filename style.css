@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(235, 229, 207);
+}
+.head{
+    background-color: rgb(251, 131, 227);
+    padding: 10 px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff87cb;
+    padding: 10px;
+    border-bottom: 5px solid #00ffff;
+}
+ 
+.logo{
+    margin: 25px 5px 0px 50px;
+    width: 100px;  
+    height: 100px; 
+    border-radius: 50%;  
+    object-fit: cover; 
+    }
+    .main-nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .main-nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        transition: color 0.3s ease;
+    }
+    
+    .main-nav a:hover {
+        color: #ff6600;
+    }
+    
+    /* Custom Navbar Styling */
+    .navbar {
+        margin-top: 20px;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .navbar ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: #00ffff;
+        color: #ff6600;
+        border-radius: 5px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .navigation .navbar {
+        background-color: rgb(251, 131, 227) !important;
+    }
+
+
+.testHeading{
+    font-size: 50px;
+    color: white;
+    background-color: aqua;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+}
+    
+p{
+    font-size: 40px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column; /* Stack the question and buttons vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center;     /* Center the content horizontally */
+}
+
+.question-box {
+    text-align: center;      /* Center the question and buttons */
+    background-color: white; /* Set background color to white */
+    padding: 50px;           /* Add padding inside the box */
+    border-radius: 10px;     /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 200%;              /* Set the width of the box */
+    max-width: 700px;        /* Limit the maximum width */
+    margin: 20px 0;          /* Add space above and below the box */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px;               /* Add spacing between buttons */
+    margin-top: 20px;        /* Space between the question and buttons */
+
+button {
+    flex: 0 0 auto; /* Prevent buttons from shrinking or growing */
+    border-radius: 999px; /* Fully rounded, pill-shaped buttons */
+    padding: 10px 20px;  /* Adjust the padding for a better appearance */
+    border: 2px solid #0056b3; /* Custom blue border for buttons */
+}
+    
+}
+
+button {
+    flex: 0 0 auto; /* Prevent buttons from shrinking or growing */
+    
+}
+
+.active-button {
+    background-color: #0056b3 !important;
+    color: white !important;
+    border: 2px solid #003f7f;
+}
+
+footer {
+    background-color: #f0e8cc; /* Light beige background */
+    padding: 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px;
+    text-align: left;
+    background-color: #f0e8cc;
+}
+
+footer {
+    background-color: #b6a9a9;
+    color: #006400;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.follow-us ul, 
+.quick-links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.follow-us ul li, 
+.quick-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #006400;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 14px; /* Smaller font size */
+    margin-bottom: 8px;
+    color: #006400; /* Light gray color for subtle effect */
+}
